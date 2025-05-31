@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   Plus, 
   Search, 
@@ -114,7 +115,7 @@ const Dashboard = () => {
         {/* Quick Action Cards */}
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Upload Card */}
-          <div className="group cursor-pointer">
+          <Link to="/upload" className="group cursor-pointer">
             <div className="relative overflow-hidden bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 rounded-3xl p-8 text-white shadow-2xl hover:shadow-3xl transform hover:-translate-y-3 hover:rotate-1 transition-all duration-500">
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-8 translate-x-8"></div>
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-6 -translate-x-6"></div>
@@ -139,7 +140,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
 
           {/* Library Card */}
           <div className="group cursor-pointer" onClick={() => document.getElementById('documents-section')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -287,11 +288,11 @@ const Dashboard = () => {
                   }
                 </p>
                 {!searchTerm && (
-                  <button className="inline-flex items-center space-x-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                  <Link to="/upload" className="inline-flex items-center space-x-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
                     <Plus className="h-6 w-6" />
                     <span>Upload Your First Document</span>
                     <Zap className="h-6 w-6" />
-                  </button>
+                  </Link>
                 )}
               </div>
             ) : (
@@ -393,11 +394,14 @@ const EnhancedDocumentCard = ({ document }) => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <button className="inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-2xl font-bold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition-all duration-300">
+          <Link
+            to={`/chat?doc=${document.id}`}
+            className="inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-2xl font-bold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition-all duration-300"
+          >
             <Bot className="h-6 w-6" />
             <span>Chat with AI</span>
             <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -405,4 +409,3 @@ const EnhancedDocumentCard = ({ document }) => {
 };
 
 export default Dashboard;
-// file 1 
