@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Upload, FileText, Moon, Sun, BookOpen, BrainCircuit, Files } from 'lucide-react';
+import { Home, Upload, FileText, Moon, Sun, Files } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Layout = ({ children }) => {
@@ -19,7 +19,6 @@ const Layout = ({ children }) => {
     { name: 'Home', href: '/', icon: Home },
     { name: 'Upload', href: '/upload', icon: Upload },
     { name: 'Document Library', href: '/library', icon: Files },
-    { name: 'DocIntel Intelligence', href: '/intelligence', icon: BrainCircuit },
   ];
 
   return (
