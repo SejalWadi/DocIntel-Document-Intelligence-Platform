@@ -267,8 +267,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/SejalWadi/docintel/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/SejalWadi/docintel/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SejalWadi/DocIntel-Document-Intelligence-Platform/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SejalWadi/DocIntel-Document-Intelligence-Platform/discussions)
 - **Email**: sejalwadi2005@gmail.com
 
 ## 🗺️ Roadmap
