@@ -267,9 +267,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/docintel/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/docintel/discussions)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/SejalWadi/docintel/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SejalWadi/docintel/discussions)
+- **Email**: sejalwadi2005@gmail.com
 
 ## 🗺️ Roadmap
 
@@ -283,6 +283,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by Sejal Wadibhasme**
 
 *Transform your documents into intelligent, queryable knowledge bases with Docintel.*
