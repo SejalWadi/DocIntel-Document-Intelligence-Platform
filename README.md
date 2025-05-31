@@ -9,13 +9,13 @@
 ![Main Interface](ui_ss/Home_2.png)
 
 ### Document Upload
-![Document Upload](ui_ss/Upload.png)
+![Document Upload](ui_ss/up.png)
 
 ### Chat Interface
 ![Chat Interface](ui_ss/chat.png)
 
 ### Document Library
-![Document Library](ui_ss/Library.png)
+![Document Library](ui_ss/lib.png)
 
 ## ✨ Features
 
