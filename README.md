@@ -12,7 +12,7 @@
 ![Document Upload](ui_ss/up.png)
 
 ### Chat Interface
-![Chat Interface](ui_ss/chat.png)
+![Chat Interface](ui_ss/chat.jpg)
 
 ### Document Library
 ![Document Library](ui_ss/lib.png)
