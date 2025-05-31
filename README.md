@@ -4,20 +4,18 @@
 
 ## 📱 Screenshots
 
-### Demo
-![Demo](ui_ss/demo-video.mp4)
-
 ### Main Interface
-![Main Interface](ui_ss/home.png)
+![Main Interface](ui_ss/Home_1.png)
+![Main Interface](ui_ss/Home_2.png)
 
 ### Document Upload
-![Document Upload](ui_ss/upload.png)
+![Document Upload](ui_ss/Upload.png)
 
 ### Chat Interface
 ![Chat Interface](ui_ss/chat.png)
 
 ### Document Library
-![Document Library](ui_ss/library.png)
+![Document Library](ui_ss/Library.png)
 
 ## ✨ Features
 
